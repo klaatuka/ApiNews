@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "klaatuka_Wes_anderson_futuristic_aquarium._fashion_campaign._da_00d545b5-7bb8-4b92-ab71-ebd419ead25d.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "klaatuka_Wes_anderson_futuristic_aquarium._fashion_campaign._da_00d545b5-7bb8-4b92-ab71-ebd419ead25d 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "klaatuka_Wes_anderson_futuristic_aquarium._fashion_campaign._da_00d545b5-7bb8-4b92-ab71-ebd419ead25d 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -13,10 +13,13 @@
 		6BB9557A2B13BC1E006822A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB955782B13BC1E006822A1 /* Main.storyboard */; };
 		6BB9557C2B13BC1F006822A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BB9557B2B13BC1F006822A1 /* Assets.xcassets */; };
 		6BB9557F2B13BC1F006822A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB9557D2B13BC1F006822A1 /* LaunchScreen.storyboard */; };
+		6BB955872B13BC3F006822A1 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB955862B13BC3E006822A1 /* Service.swift */; };
+		6BB9558B2B14A756006822A1 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB9558A2B14A756006822A1 /* CustomCell.swift */; };
+		6BB9558D2B14BA1B006822A1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB9558C2B14BA1B006822A1 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6BB9556F2B13BC1E006822A1 /* ApiNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApiNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB9556F2B13BC1E006822A1 /* P5M3HM2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = P5M3HM2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BB955722B13BC1E006822A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BB955742B13BC1E006822A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6BB955762B13BC1E006822A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		6BB9557B2B13BC1F006822A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BB9557E2B13BC1F006822A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BB955802B13BC1F006822A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB955862B13BC3E006822A1 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		6BB9558A2B14A756006822A1 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		6BB9558C2B14BA1B006822A1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +54,7 @@
 		6BB955702B13BC1E006822A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6BB9556F2B13BC1E006822A1 /* ApiNews.app */,
+				6BB9556F2B13BC1E006822A1 /* P5M3HM2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +65,9 @@
 				6BB955722B13BC1E006822A1 /* AppDelegate.swift */,
 				6BB955742B13BC1E006822A1 /* SceneDelegate.swift */,
 				6BB955762B13BC1E006822A1 /* ViewController.swift */,
+				6BB9558C2B14BA1B006822A1 /* DetailViewController.swift */,
+				6BB955862B13BC3E006822A1 /* Service.swift */,
+				6BB9558A2B14A756006822A1 /* CustomCell.swift */,
 				6BB955782B13BC1E006822A1 /* Main.storyboard */,
 				6BB9557B2B13BC1F006822A1 /* Assets.xcassets */,
 				6BB9557D2B13BC1F006822A1 /* LaunchScreen.storyboard */,
@@ -70,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6BB9556E2B13BC1E006822A1 /* ApiNews */ = {
+		6BB9556E2B13BC1E006822A1 /* P5M3HM2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6BB955832B13BC1F006822A1 /* Build configuration list for PBXNativeTarget "ApiNews" */;
+			buildConfigurationList = 6BB955832B13BC1F006822A1 /* Build configuration list for PBXNativeTarget "P5M3HM2" */;
 			buildPhases = (
 				6BB9556B2B13BC1E006822A1 /* Sources */,
 				6BB9556C2B13BC1E006822A1 /* Frameworks */,
@@ -82,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = ApiNews;
+			name = P5M3HM2;
 			productName = ApiNews;
-			productReference = 6BB9556F2B13BC1E006822A1 /* ApiNews.app */;
+			productReference = 6BB9556F2B13BC1E006822A1 /* P5M3HM2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6BB9556A2B13BC1E006822A1 /* Build configuration list for PBXProject "ApiNews" */;
+			buildConfigurationList = 6BB9556A2B13BC1E006822A1 /* Build configuration list for PBXProject "P5M3HM2" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6BB9556E2B13BC1E006822A1 /* ApiNews */,
+				6BB9556E2B13BC1E006822A1 /* P5M3HM2 */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BB955772B13BC1E006822A1 /* ViewController.swift in Sources */,
+				6BB955872B13BC3F006822A1 /* Service.swift in Sources */,
+				6BB9558B2B14A756006822A1 /* CustomCell.swift in Sources */,
+				6BB9558D2B14BA1B006822A1 /* DetailViewController.swift in Sources */,
 				6BB955732B13BC1E006822A1 /* AppDelegate.swift in Sources */,
 				6BB955752B13BC1E006822A1 /* SceneDelegate.swift in Sources */,
 			);
@@ -292,6 +304,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43X29FT2L9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ApiNews/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -299,6 +312,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +320,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.klaatuka82.ApiNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,6 +336,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43X29FT2L9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ApiNews/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -326,6 +344,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,16 +352,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.klaatuka82.ApiNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6BB9556A2B13BC1E006822A1 /* Build configuration list for PBXProject "ApiNews" */ = {
+		6BB9556A2B13BC1E006822A1 /* Build configuration list for PBXProject "P5M3HM2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6BB955812B13BC1F006822A1 /* Debug */,
@@ -351,7 +373,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6BB955832B13BC1F006822A1 /* Build configuration list for PBXNativeTarget "ApiNews" */ = {
+		6BB955832B13BC1F006822A1 /* Build configuration list for PBXNativeTarget "P5M3HM2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6BB955842B13BC1F006822A1 /* Debug */,

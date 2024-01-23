@@ -1,9 +1,4 @@
-//
-//  AppDelegate.swift
-//  ApiNews
-//
-//  Created by Карен Узунян on 26.11.2023.
-//
+
 
 import UIKit
 
